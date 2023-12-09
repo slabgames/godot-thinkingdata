@@ -1,4 +1,4 @@
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.slabgames.onestore">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.slabgames.thinkingdata">
 
   <application>
     <!--
@@ -11,10 +11,9 @@
     initializer.
     -->
     <meta-data
-        android:name="org.godotengine.plugin.v1.GodotOneStore"
-        android:value="com.slabgames.onestore.GodotOneStore" />
+        android:name="org.godotengine.plugin.v1.GodotThinkingData"
+        android:value="com.slabgames.onestore.GodotThinkingData" />
 
-        <meta-data android:name="iap:view_option" android:value="popup"/>
 
   </application>
   <uses-permission android:name="android.permission.INTERNET" />
