@@ -12,7 +12,7 @@
     -->
     <meta-data
         android:name="org.godotengine.plugin.v1.GodotThinkingData"
-        android:value="com.slabgames.onestore.GodotThinkingData" />
+        android:value="com.slabgames.thinkingdata.GodotThinkingData" />
 
 
   </application>
