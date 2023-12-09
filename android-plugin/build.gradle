@@ -34,7 +34,7 @@ android {
     // Used to customize the name of generated AAR file.
     libraryVariants.all { variant ->
         variant.outputs.all { output ->
-            output.outputFileName = "GodotOneStore.${variant.name}.aar"
+            output.outputFileName = "GodotThinkingData.${variant.name}.aar"
         }
     }
 
@@ -59,7 +59,7 @@ dependencies {
 group = 'com.slabgames.godot'
 version = '0.1.0'
 ext {
-    artifact = 'godot-onestore'
+    artifact = 'godot-thinkingdata'
 }
 
 Properties properties = new Properties()
@@ -92,9 +92,9 @@ afterEvaluate {
             repo = 'maven'
             name = artifact
             userOrg = 'slab'
-            desc = 'Onestore plugin for godot engine.'
-            websiteUrl = 'https://github.com/slabgames/godot-onestore'
-            vcsUrl = 'https://github.com/slabgames/godot-onestore.git'
+            desc = 'ThinkingData plugin for godot engine.'
+            websiteUrl = 'https://github.com/slabgames/godot-thinkingdata'
+            vcsUrl = 'https://github.com/slabgames/godot-thinkingdata.git'
             licenses = ["MIT", "BSD"]
             publish = true
             publicDownloadNumbers = true
