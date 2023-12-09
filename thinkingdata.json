@@ -1,0 +1,37 @@
+{
+  "name": "one store",
+  "display_name": "Thinking Data SDK",
+  "description": "Thinking Data",
+  "version": "1.0.0",
+  "license": "MIT",
+  "url": "https://github.com/slabgames/godot-thinkingdata",
+  "category": "misc",
+  "godot_version": "3.5.3",
+  "author": {
+    "name": "SLAB",
+    "url": "https://github.com/slabgames",
+  },
+  "variables": {
+    "Thinking Data License Key": {
+      "info": "Set your License Key here"
+    }
+  },
+  "files": {
+    "gd": "scripts"
+  },
+  "autoload": {
+    "onestore": "*res://scripts/thinkingdata.gd"
+  },
+  "platform_ios": {
+    "dependencies": ["ios-att"],
+    "files": {
+
+    }
+  },
+  "platform_android": {
+    "files": {
+      "android-plugin/GodotThinkingData.gdap": "android/plugins/",
+      "android-plugin/build/outputs/aar/GodotThinkingData.release.aar": "android/plugins/"
+    }
+  }
+}
