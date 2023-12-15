@@ -182,6 +182,7 @@ public class GodotThinkingData extends GodotPlugin {
     public  void sendEvent(String key, String value, String eventName)
     {
         try {
+            if(_instance==null) return;
             JSONObject properties = new JSONObject();
             properties.put(key,value);
             _instance.track(eventName,properties);

@@ -53,6 +53,7 @@ dependencies {
      */
 
     compileOnly fileTree(dir: 'libs', include: ['godot-lib*.aar','TDAnalytics.aar','TDCore.aar'])
+    //implementation fileTree(dir: 'libs',include:[])
     implementation 'cn.thinkingdata.android:ThinkingAnalyticsSDK:2.8.2'
 }
 
